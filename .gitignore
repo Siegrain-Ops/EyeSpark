@@ -1,0 +1,23 @@
+#Escludere i file JSON e le immagini
+*.json
+*.jpg
+*.png
+
+#Escludere le cartelle dei dataset
+Dataset/images/
+Dataset/annotations/
+Dataset/split_dataset/train/images/
+Dataset/split_dataset/train/annotations/
+Dataset/split_dataset/val/images/
+Dataset/split_dataset/val/annotations/
+Dataset/split_dataset/test/images/
+Dataset/split_dataset/test/annotations/
+
+#Escludere file temporanei di sistema
+.DS_Store
+Thumbs.db
+
+#Escludere file di Python che non servono
+__pycache__/
+*.pyc
+*.pyo
